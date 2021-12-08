@@ -1,4 +1,4 @@
 <script>
   var s = location.hash.replace('#', '');
-  eval(s);
+  eval(decodeURIComponent(s))
 </script>
